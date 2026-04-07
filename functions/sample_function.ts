@@ -9,8 +9,8 @@ import type SampleObjectDatastore from "../datastores/sample_datastore.ts";
  */
 export const SampleFunctionDefinition = DefineFunction({
   callback_id: "sample_function",
-  title: "Sample function",
-  description: "A sample function",
+  title: "This is a sample function",
+  description: "This is a sample function",
   source_file: "functions/sample_function.ts",
   input_parameters: {
     properties: {
